@@ -18,6 +18,6 @@ NEWS_URL= 127.0.0.1:1200 # RSS源地址
 ```
 
 # 启动
-nodemon app.ts 
-ts-node 
-pm2 start app.ts
+三种启动方式 自选
+
+nodemon app.ts || ts-node || pm2 start app.ts
