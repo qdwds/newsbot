@@ -11,11 +11,13 @@
 
 
 ## 文件配置
+根目录新建`.env`文件 并且配置一下环境变量
 ```
-新建.env文件
 TELEGRSM_NEWS_BOT = 电报机器人TOKEN
 NEWS_URL= 127.0.0.1:1200 # RSS源地址
 ```
 
 # 启动
-nodemon app.ts
+nodemon app.ts 
+ts-node 
+pm2 start app.ts
