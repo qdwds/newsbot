@@ -1,0 +1,25 @@
+{
+  "name": "rss_news",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^20.6.0",
+    "@types/node-telegram-bot-api": "^0.61.7",
+    "dotenv": "^16.3.1",
+    "node-schedule": "^2.1.1",
+    "node-telegram-bot-api": "^0.63.0",
+    "rss-parser": "^3.13.0",
+    "ws": "^8.14.1"
+  },
+  "devDependencies": {
+    "@types/node-schedule": "^2.1.0",
+    "@types/ws": "^8.5.5"
+  }
+}
